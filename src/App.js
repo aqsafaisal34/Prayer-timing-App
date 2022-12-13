@@ -21,7 +21,7 @@ function App() {
 
       console.log("response: ", response);
 
-      setData(response.data.list)
+      setData(response.data.data)
 
 
   } catch (error) {
@@ -50,7 +50,7 @@ function App() {
         data.map((eachForecast, index)=>(
           <Prayer
           key={index}
-          time={eachForecast.data.data.timings.Fajr}
+          time={eachForecast.timings.Fajr}
            />
         ))
       }
