@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+form{
+    display: flex;
+    justify-content: center;
+}
+form>input{
+    margin: 8px;
+    padding:  5px 10px;
+    border-radius: 10px;
+    outline: none;
+    text-align: center;
+   
+}
+button{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(15, 73, 120);
+    color:white;
+    margin:10px 0;
+}
+button:hover{
+   cursor: pointer;
+}
+h1{
+    margin-bottom:10px;
+}
